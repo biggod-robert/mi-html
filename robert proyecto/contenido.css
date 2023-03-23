@@ -1,0 +1,104 @@
+body {
+    background-color: #bdf0bd;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-size: 20px;
+    margin: 0;
+    height: 1200px;
+}
+
+a{
+    text-decoration: none;
+    color: #210683;
+}
+header {
+    display: flex;
+    height: 72px;
+    background-color: #0cbe0c;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nombre{
+    font-family: 'Bungee Shade', cursive;
+
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 20px;
+
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 25px;
+
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+.logo-nombre {
+    color: rgb(27, 19, 3);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.escudo:hover{
+    color: #0cbe0c;
+}
+
+.contenedor-sobre-nosotros{
+    width: 50%;
+}
+  
+.img {
+    width: 300px;
+    height: 350px;
+   
+    
+}
+
+
+.menu {
+    font-family: 'Rubik Storm', cursive;
+    margin-top: 0%;
+    height: 90px;
+    width: 90px;
+}
+
+.imgRedonda{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px ;
+    margin-left: 800px;
+
+}
+
+.hola{
+    margin-top: -500px;
+    margin-left: 700px;
+    font-size: 30px;
+    font-family: font-family: 'Rampart One', cursive;;
+    color: black;
+    width: 600px;
+    height: 100px;
+    border-right: 5px;    
+}
+
+.escudo{
+    color: rgb(219, 0, 0);
+}
+.imagen{
+    margin-right: 700px;
+    width: 500px;
+    height: 600px;
+}
+
