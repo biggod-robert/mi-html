@@ -1,9 +1,16 @@
+html{
+    height: 100%;
+}
+
 body {
     background-color: #bdf0bd;
     font-family: 'Rubik 80s Fade', cursive;
     font-size: 20px;
     margin: 0;
     height: 1200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 a{
@@ -30,7 +37,8 @@ header {
 }
 
 .logo img{
-    height: 50px;
+    width: 100px;
+    height: 70px;
     margin-right: 20px;
 
 }
@@ -47,7 +55,8 @@ nav a:hover{
 
 .logo-nombre {
     color: rgb(27, 19, 3);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
 
 }
 
@@ -57,18 +66,35 @@ nav a:hover{
 
 .contenedor-sobre-nosotros{
     width: 50%;
+
+}
+.ban:hover{
+    border-radius: 50%;
+    -webkit-border-radius: 20%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
   
+.log:hover{
+    border-radius: 50%;
+    -webkit-border-radius: 20%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
 .img {
-    width: 300px;
-    height: 350px;
+    width: 350px;
+    height: 390px;
    
     
 }
 
 
 .menu {
-    font-family: 'Rubik Storm', cursive;
+    font-family: 'Alfa Slab One', cursive;
     margin-top: 0%;
     height: 90px;
     width: 90px;
@@ -102,3 +128,105 @@ nav a:hover{
     height: 600px;
 }
 
+.imagen:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 30%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+footer{
+    font-family: 'Mate SC', serif;
+    font-size: 13px;
+    height: 20px;
+    background-color: #0cbe0c;
+    bottom: 0;
+    padding: 1em 0;
+    margin-top: auto;
+    text-align: center;
+
+}
+
+.hello {
+    width: 300px;
+    height: 300px;
+    margin-left: 1100px;
+    margin-top: -800px;
+    padding: 100px;
+}
+
+.imagen-1 {
+    width: 340px;
+    height: 350px;
+    border-radius: 10%;
+    
+}
+
+.imagen-2 {
+    width: 340px;
+    height: 350px;
+    border-radius: 10%;
+ 
+}
+
+.imagen-3 {
+    width: 340px;
+    height: 350px;
+    border-radius: 10%;
+ 
+
+}
+
+.imagen-4 {
+    width: 340px;
+    height: 350px;
+    border-radius: 10%;
+  
+
+}
+
+
+.imagen-1:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.imagen-2:hover {
+    border-radius: 0%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.imagen-3:hover {
+    border-radius: 0%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.imagen-4:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.hola-proyecto{
+    margin-right: 150px;
+    margin-top: -200px;
+    width: 500px;
+    height: 400px;
+
+}
