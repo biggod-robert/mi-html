@@ -45,7 +45,7 @@ header {
 
 nav a {
     font-weight: 600;
-    padding-right: 25px;
+    padding-right: 40px;
 
 }
 
@@ -182,10 +182,8 @@ footer{
     width: 340px;
     height: 350px;
     border-radius: 10%;
-  
 
 }
-
 
 .imagen-1:hover {
     border-radius: 50%;
@@ -228,5 +226,13 @@ footer{
     margin-top: -350px;
     width: 500px;
     height: 400px;
+
+}
+
+.menu-nombre{
+    height: 150px;
+    width: 150px;
+    margin-left: 900px;
+    margin-top: -10px;
 
 }
