@@ -1,0 +1,32 @@
+.i{
+    position: relative;
+    width: 360px;
+    height: 360;
+    margin-left:65%;
+    top: -280px;
+    border-radius: 10%;
+}
+.parrafo{
+    position: relative;
+    width: 40%;
+    height: 21%;
+    background-color: #c0bcbc1e;
+    font-family: 'Alkatra', cursive;
+    font-size: 18px;
+    top: -10px;
+    left: -3px;
+    overflow: hidden;
+    border-radius: 3%;
+    margin-left: 12%;
+}
+
+h2{
+    position: relative;
+    color: #f77359;
+    height: 0px;
+    font-size: 26px;
+    top: 27px;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 12%;
+}
+
